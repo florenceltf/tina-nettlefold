@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Lettera Text';
+  src: url(../assets/fonts/LetteraTextStd.otf);
+}
+
+body {
+  background: #6bdad5;
+  font-family: 'Lettera Text', sans-serif;
+  letter-spacing: .08em;
+  font-size: 18px;
+  text-align: center;
+}
+
+::selection {
+  background: transparent;
+}
+
+header {
+  mix-blend-mode: multiply;
+}
+
+header img {
+  max-width: 500px;
+  margin: 0px auto 0 auto;
+}
+
+section {
+  max-width: 750px;
+  margin: -30px auto 0 auto;
+}
+
+p {
+  margin: 0;
+  padding: 0 30px 0 30px;
+}
+
+footer {
+  width: 100%;
+  margin: 80px auto 40px auto;
+}
+
+footer img {
+  width: 25px;
+  margin: 2px;
+}
+
+@media (max-width: 500px) {
+
+  header img {
+    max-width: 400px;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  footer {
+    margin-top: 80px;
+  }
+
+}
+
+@media (min-width: 1500px) {
+
+  header img {
+    max-width: 600px;
+    margin: 80px 0;
+  }
+
+  p {
+    font-size: 22px;
+    }
+
+  section {
+    margin: 50px auto;
+    max-width: 900px;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+footer img {
+  width: 35px;
+  margin: 2px;
+}
+
+}
+  
